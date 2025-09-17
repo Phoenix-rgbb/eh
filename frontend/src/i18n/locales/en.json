@@ -1,0 +1,339 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "refresh": "Refresh",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "profile": "Profile",
+    "settings": "Settings",
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "language": "Language",
+    "symptoms": "Symptoms",
+    "duration": "Duration",
+    "severity": "Severity",
+    "age": "Age",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "mild": "Mild",
+    "moderate": "Moderate",
+    "concerning": "Concerning",
+    "severe": "Severe",
+    "critical": "Critical",
+    "selectDuration": "Select duration",
+    "selectGender": "Select Gender",
+    "lessThan1Day": "Less than 1 day",
+    "1to3Days": "1-3 days",
+    "4to7Days": "4-7 days",
+    "1to2Weeks": "1-2 weeks",
+    "moreThan2Weeks": "More than 2 weeks",
+    "analyzing": "Analyzing...",
+    "analysisResults": "Analysis Results",
+    "aiPoweredInsights": "AI-powered health insights",
+    "noAnalysis": "No analysis available yet",
+    "enterSymptoms": "Enter your symptoms above and click analyze",
+    "disclaimer": "Disclaimer",
+    "disclaimerText": "This tool provides general health information only. Always consult with a healthcare professional for proper medical diagnosis and treatment.",
+    "possibleConditions": "Possible Conditions",
+    "recommendedActions": "Recommended Actions",
+    "suggestedSpecialists": "Suggested Specialists",
+    "bookConsultation": "Book Consultation",
+    "emergencyHelp": "Emergency Help",
+    "match": "match",
+    "commonSymptoms": "Common Symptoms",
+    "fever": "Fever",
+    "cough": "Cough",
+    "headache": "Headache",
+    "soreThroat": "Sore Throat",
+    "bodyAche": "Body Ache",
+    "fatigue": "Fatigue",
+    "stomachPain": "Stomach Pain",
+    "nausea": "Nausea",
+    "vomiting": "Vomiting",
+    "diarrhea": "Diarrhea",
+    "shortnessOfBreath": "Shortness of Breath",
+    "rash": "Rash",
+    "chestPain": "Chest Pain",
+    "dizziness": "Dizziness",
+    "abdominalPain": "Abdominal Pain"
+  },
+  "navbar": {
+    "brand": "Rural Health Portal",
+    "home": "Home",
+    "consultation": "Consultation",
+    "queue": "Queue",
+    "dashboard": "Dashboard",
+    "pharmacy": "Pharmacy",
+    "records": "Health Records",
+    "emergency": "Emergency",
+    "profile": "Profile",
+    "admin": "Admin",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "role": "Role",
+    "loginButton": "Sign In",
+    "registerButton": "Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginSuccess": "Login successful!",
+    "registerSuccess": "Registration successful!",
+    "loginError": "Login failed. Please check your credentials.",
+    "registerError": "Registration failed. Please try again."
+  },
+  "roles": {
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "admin": "Administrator",
+    "gov_official": "Government Official"
+  },
+  "home": {
+    "title": "Welcome to Rural Health Portal",
+    "subtitle": "Connecting rural communities with quality healthcare",
+    "description": "Access medical consultations, emergency services, and health records from anywhere.",
+    "getStarted": "Get Started",
+    "features": {
+      "consultation": {
+        "title": "Video Consultation",
+        "description": "Connect with qualified doctors through secure video calls"
+      },
+      "emergency": {
+        "title": "Emergency Services",
+        "description": "24/7 emergency support and rapid response system"
+      },
+      "pharmacy": {
+        "title": "Online Pharmacy",
+        "description": "Order medicines and get them delivered to your location"
+      },
+      "records": {
+        "title": "Health Records",
+        "description": "Secure digital storage of your medical history and reports"
+      }
+    }
+  },
+  "buttons": {
+    "startConsultation": "Start Consultation",
+    "finishConsultation": "Finish Consultation",
+    "callNow": "Call Now",
+    "addToCart": "Add to Cart",
+    "joinQueue": "Join Queue",
+    "analyze": "Analyze",
+    "addAnother": "Add Another"
+  },
+  "doctor": {
+    "dashboard": {
+      "title": "Doctor Dashboard",
+      "subtitle": "Manage consultations and patient care",
+      "patientQueue": "Patient Queue",
+      "activeConsultations": "Active Consultations",
+      "patientHistory": "Patient History",
+      "schedule": "Schedule",
+      "waitingPatients": "Waiting Patients",
+      "noPatients": "No patients in queue",
+      "noPatientMessage": "Take a break! No patients are currently waiting for consultation.",
+      "startConsultation": "Start Consultation",
+      "finishConsultation": "Finish Consultation",
+      "patientName": "Unknown Patient",
+      "symptoms": "Symptoms",
+      "waitingTime": "Waiting",
+      "status": "Status",
+      "joinedAt": "Joined"
+    },
+    "status": {
+      "available": "Available",
+      "offline": "Offline",
+      "emergency": "Emergency",
+      "emergencyMode": "Emergency Mode",
+      "emergencyDuty": "Emergency Duty",
+      "currentStatus": "Current Status",
+      "toggleAvailability": "Toggle Availability",
+      "toggleEmergency": "Toggle Emergency Status",
+      "loadingStatus": "Loading doctor information...",
+      "waitMessage": "Please wait while we fetch your doctor profile."
+    }
+  },
+  "patient": {
+    "consultation": {
+      "title": "Medical Consultation",
+      "subtitle": "Join the queue for video consultation with our doctors",
+      "joinQueue": "Join Queue",
+      "symptoms": "Describe your symptoms",
+      "selectDoctor": "Select a doctor (optional)",
+      "priority": "Priority Level",
+      "priorities": {
+        "low": "Low",
+        "medium": "Medium", 
+        "high": "High",
+        "emergency": "Emergency"
+      },
+      "joinSuccess": "Successfully Joined Queue",
+      "joinSuccessMessage": "You have been added to the consultation queue",
+      "joinAnother": "Join Another Queue",
+      "currentQueue": "Current Consultation Queue",
+      "patientsWaiting": "patients waiting",
+      "availableDoctors": "Available Doctors",
+      "doctorsOnline": "doctors currently online",
+      "experience": "years experience",
+      "lastSeen": "Last seen"
+    },
+    "symptomChecker": {
+      "title": "Symptom Checker",
+      "subtitle": "Get preliminary health insights based on your symptoms",
+      "aiTitle": "AI Symptom Checker",
+      "aiSubtitle": "Get intelligent health insights based on a database of real patient cases",
+      "describeSymptoms": "Describe Your Symptoms",
+      "enterForAnalysis": "Enter your symptoms for AI analysis",
+      "patientId": "Patient ID",
+      "enterPatientId": "Enter patient ID",
+      "analysisForm": "Symptom Analysis Form",
+      "quickSymptomCheck": {
+        "title": "Quick Symptom Check",
+        "subtitle": "Click on common symptoms to add them quickly",
+        "symptoms": {
+          "fever": "Fever",
+          "headache": "Headache",
+          "cough": "Cough",
+          "soreThroat": "Sore throat",
+          "nausea": "Nausea",
+          "vomiting": "Vomiting",
+          "diarrhea": "Diarrhea",
+          "fatigue": "Fatigue",
+          "chestPain": "Chest pain",
+          "shortnessOfBreath": "Shortness of breath",
+          "dizziness": "Dizziness",
+          "abdominalPain": "Abdominal pain"
+        }
+      },
+      "healthTips": {
+        "title": "General Health Tips",
+        "emergencySection": {
+          "title": "🚨 When to Seek Emergency Care",
+          "tips": [
+            "Severe chest pain or pressure",
+            "Difficulty breathing or shortness of breath",
+            "Severe bleeding that won't stop",
+            "Loss of consciousness",
+            "Severe allergic reactions",
+            "Signs of stroke (face drooping, arm weakness, speech difficulty)"
+          ]
+        },
+        "doctorSection": {
+          "title": "🏥 When to See a Doctor",
+          "tips": [
+            "Persistent fever over 3 days",
+            "Severe or worsening symptoms",
+            "Symptoms that interfere with daily activities",
+            "Unusual or concerning changes in health",
+            "Chronic conditions getting worse",
+            "New symptoms with existing conditions"
+          ]
+        }
+      }
+    }
+  },
+  "pharmacy": {
+    "title": "Online Pharmacy",
+    "subtitle": "Order medicines and healthcare products",
+    "searchMedicines": "Search medicines...",
+    "categories": {
+      "all": "All Medicines",
+      "prescription": "Prescription",
+      "otc": "Over the Counter",
+      "supplements": "Supplements",
+      "firstAid": "First Aid"
+    },
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "price": "Price",
+    "quantity": "Quantity",
+    "cart": "Cart",
+    "checkout": "Checkout",
+    "orderHistory": "Order History"
+  },
+  "emergency": {
+    "title": "Emergency Services",
+    "subtitle": "24/7 emergency medical assistance",
+    "callEmergency": "Call Emergency",
+    "reportEmergency": "Report Emergency",
+    "emergencyContacts": "Emergency Contacts",
+    "ambulance": "Ambulance",
+    "fireService": "Fire Service",
+    "police": "Police",
+    "nearbyHospitals": "Nearby Hospitals",
+    "emergencyTips": "Emergency Tips"
+  },
+  "records": {
+    "title": "Health Records",
+    "subtitle": "Your digital health history",
+    "uploadRecord": "Upload Record",
+    "downloadRecord": "Download",
+    "shareRecord": "Share",
+    "recordType": "Record Type",
+    "recordTypes": {
+      "all": "All Records",
+      "prescription": "Prescription",
+      "labReport": "Lab Report",
+      "xray": "X-Ray",
+      "scan": "Scan",
+      "vaccination": "Vaccination",
+      "other": "Other"
+    },
+    "date": "Date",
+    "doctor": "Doctor",
+    "hospital": "Hospital",
+    "notes": "Notes"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "users": "Users",
+    "doctors": "Doctors",
+    "patients": "Patients",
+    "analytics": "Analytics",
+    "reports": "Reports",
+    "settings": "System Settings",
+    "userManagement": "User Management",
+    "systemHealth": "System Health",
+    "totalUsers": "Total Users",
+    "activeConsultations": "Active Consultations",
+    "todayAppointments": "Today's Appointments"
+  },
+  "messages": {
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "unauthorized": "You are not authorized to access this resource.",
+    "sessionExpired": "Your session has expired. Please login again.",
+    "dataUpdated": "Data updated successfully.",
+    "dataSaved": "Data saved successfully.",
+    "dataDeleted": "Data deleted successfully.",
+    "operationFailed": "Operation failed. Please try again.",
+    "noDataFound": "No data found.",
+    "loadingData": "Loading data...",
+    "processingRequest": "Processing your request...",
+    "analysisComplete": "Analysis complete",
+    "errorOccurred": "An error occurred during analysis"
+  }
+}
