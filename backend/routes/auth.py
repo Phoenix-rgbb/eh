@@ -3,7 +3,7 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.orm import Session
 from datetime import timedelta
 from database import get_db
-from models import User, Doctor, Patient
+from models import User, Doctor, Patient, UserRole
 from schemas import UserCreate, UserLogin, AdminLogin, Token, UserResponse, DoctorCreate, PatientCreate
 from utils import verify_password, get_password_hash, create_access_token, verify_token, ACCESS_TOKEN_EXPIRE_MINUTES
 
@@ -225,7 +225,7 @@ def admin_login(admin_credentials: AdminLogin, db: Session = Depends(get_db)):
         )
     
     # Verify user has admin or gov_official role
-    if user.role not in ["admin", "gov_official"]:
+    if user.role not in [UserRole.admin, UserRole.gov_official]:
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="User does not have administrative privileges"
